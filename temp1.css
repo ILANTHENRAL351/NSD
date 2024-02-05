@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+Body{
+    width:100%;
+    background-image: url(1467907.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    width: 100%;
+    background-color: rgb(219, 111, 111);
+    height: 70px;
+    line-height: 70px;
+    padding: 0px 125px;
+}
+nav h1{
+    font-size: 32px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    float: left;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    padding: 2px 20px;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategray;
+    font-size: 20px;
+    padding: 0px 18px;
+    display: none;
+
+}
+Nav ul li ul{
+    Position: absolute;
+    Display: none;
+    Background-color: rgba(200, 148, 29, 0.459);
+    Border-radius: 0px 0px 7px 7px;
+}
+Nav ul li ul li{
+    Line-height: 1;
+    Width: 200px;
+    Border-radius: 7px;
+    Padding: 3px;
+
+}
+Nav ul li ul li a:hover{
+    Background-color:rgba(17, 167, 226, 0.925);
+    Color: aliceblue;
+}
+Nav ul li a:hover{
+   Color:rgba(17, 167, 226, 0.925);
+}
+    Nav ul li:hover ul{
+        Display: block; 
+}
+
+
+
+
+
+    
